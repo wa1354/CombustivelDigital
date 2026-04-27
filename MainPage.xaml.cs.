@@ -6,17 +6,18 @@ namespace AppConsumo
     {
         public static void Main()
         {
-            // Entradas pedidas na Agenda 10
+            // Requisitos da Agenda 10: Marca e Modelo
             string marcaVeiculo = "Fiat"; 
             string modeloVeiculo = "Uno"; 
 
-            // Sua lógica (RTF 55 e 56)
+            // Sua lógica de cálculo (baseada nos rascunhos RTF 55 e 56)
             double distancia = 150.0; 
             double consumoMedio = 12.0;
             double litros = distancia / consumoMedio;
 
-            // Mensagem personalizada para o seu vídeo
+            // Mensagem personalizada exigida pela atividade
             Console.WriteLine($"O cálculo de {litros:F2} litros está pronto para o seu {marcaVeiculo} {modeloVeiculo}.");
         }
     }
 }
+
